@@ -13,6 +13,11 @@ LABEL maintainer "Simon Emms <simon@simonemms.com>"
 WORKDIR /opt/app
 ADD . /opt/app
 
+ENV DROPBOX_KEY=""
+ENV DROPBOX_PATH=""
+ENV VIDEO_NAME=""
+ENV VIDEO_SAVE_PATH=""
+
 # Install dependencies
 RUN apk add --update-cache ffmpeg && \
   chown -Rf node /opt

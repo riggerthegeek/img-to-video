@@ -4,6 +4,7 @@
   "description": "Take some images from Dropbox and generate a video",
   "main": "./app",
   "scripts": {
+    "start": "node convert.js --dropbox-key=\"$DROPBOX_KEY\" --dropbox-path=\"$DROPBOX_PATH\" --video-name=\"$VIDEO_NAME\" --save-path=\"$VIDEO_SAVE_PATH\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Simon Emms <simon@simonemms.com>",

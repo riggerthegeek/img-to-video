@@ -29,6 +29,7 @@ for (const key in config) {
     throw new Error(`Config value not set: ${key}`);
   }
 }
+
 const dbx = new Dropbox({
   accessToken: config.dropboxKey
 });
