@@ -1,0 +1,17 @@
+{
+  "name": "video-conversion",
+  "version": "0.0.0",
+  "description": "Take some images from Dropbox and generate a video",
+  "main": "./app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Emms <simon@simonemms.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dropbox": "^2.5.4",
+    "mkdirp": "^0.5.1",
+    "videoshow": "^0.1.11",
+    "yargs": "^8.0.1"
+  }
+}
